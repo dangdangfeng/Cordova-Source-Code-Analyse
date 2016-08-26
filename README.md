@@ -3,6 +3,13 @@ Hybrid App Source Code Analyse
 
 
 * CDVPlugin 插件类，自定义插件继承于此
+* CDV 头文件
+* CDVAppDelegate 入口，在didFinishLaunchingWithOptions:里初始化CDVViewController
+* CDVAvaliability 宏定义
+* CDVAvailabilityDeprecated 弃用提示
+* CDVCommandDelegate 命令代理类，JS处理
+* CDVCommandDelegateImpl 原生处理JS
+* CDVCommandQueue 对应于cordova.commandQueue队列中所有调用信息
 
 
 
